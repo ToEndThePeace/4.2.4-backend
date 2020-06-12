@@ -1,0 +1,34 @@
+{
+  "name": "DailyProject",
+  "version": "1.0.0",
+  "description": "- database modeling.\r - migration scripts.\r - seeding.\r - knex.",
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "helmet": "^3.22.1",
+    "knex": "^0.21.1",
+    "knex-cleaner": "^1.3.0",
+    "moment": "^2.26.0",
+    "sqlite3": "^4.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ToEndThePeace/4.2.4-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ToEndThePeace/4.2.4-backend/issues"
+  },
+  "homepage": "https://github.com/ToEndThePeace/4.2.4-backend#readme"
+}
